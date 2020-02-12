@@ -1,7 +1,7 @@
 import time
 from bluetooth import *
 
-def findAirPods(alreadyFound):
+def findDevices(alreadyFound):
     found = discover_devices(lookup_names=True)
     for (addr, name) in found:
         if addr not in alreadyFound:
@@ -13,7 +13,7 @@ def main():
     alreadyFound = []
     while True:
         print('[-] Scanning for Bluetooth devices')
-        findAirPods(alreadyFound, )
+        findDevices(alreadyFound)
         time.sleep(5)
 
 if __name__ == "__main__":
