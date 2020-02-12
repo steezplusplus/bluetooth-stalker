@@ -1,6 +1,6 @@
-### Detect Airpods
+### Bluetooth Stalker
 
-Using `PyBluez` it is possible to stalk nearby Bluetooth devices and retrieve a list of their MAC addresses. This simple script listens for bluetooth devices to enter its range, and returns the device's name and MAC address.
+This simple script listens for bluetooth devices to enter its range, and returns the device's name and MAC address.
 
 ## Requirements
 This project was created with Python 3.7.6 and on MacOS Mojave. If your system is similar, you need the following. 
