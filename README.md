@@ -3,10 +3,9 @@
 This simple script listens for bluetooth devices to enter its range, and returns the device's name and MAC address.
 
 ## Requirements
-This project was created with Python 3.7.6 and on MacOS Mojave. If your system is similar, you need the following. 
+This project was created with Python 3.7.6 and on MacOS Mojave. If your system is similar, the following should suffice
 ```
-$ pip3 install pybluez
-$ pip3 install pyobjc
+$ pip3 install -r requirements.txt
 ```
 Then, download xcode off of the app store.
 
