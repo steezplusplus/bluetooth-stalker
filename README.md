@@ -2,8 +2,11 @@
 
 This simple script listens for bluetooth devices to enter its range, and returns the device's name and MAC address.
 
+## Built with
+[PyBlueZ](https://github.com/pybluez/pybluez) - A Bluetooth Python extension module 
+
 ## Requirements
-This project was created with Python 3.7.6 and on MacOS Mojave. If your system is similar, the following should suffice
+For a quick setup, utilize `requirements.txt`.
 ```
 $ pip3 install -r requirements.txt
 ```
@@ -16,3 +19,5 @@ If your system is different, you may require different dependencies to use PyBlu
 $ python3 main.py
 ```
 
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
